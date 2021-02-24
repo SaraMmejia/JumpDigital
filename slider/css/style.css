@@ -42,7 +42,7 @@ body {
   align-self: center;
   display: grid;
   grid-template-columns: 180px 180px;
-  grid-template-rows: 320px 320px;
+  grid-template-rows: 340px 340px;
   grid-gap: 2px;
 }
 
@@ -99,6 +99,58 @@ body {
   color: red;
 }
 
+.show-modal {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(230, 139, 139);
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.close-modal {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 15px;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  margin: auto;
+  width: 70%;
+  height: 20%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.title-modal {
+  font-size: 15px;
+}
+
+.content-modal {
+  font-size: 12px;
+}
+
 @media screen and (min-width: 768px) {
   .main-title {
     font-size: 50px;
@@ -107,7 +159,7 @@ body {
     align-self: center;
     display: grid;
     grid-template-columns: 200px 200px;
-    grid-template-rows: 350px 350px;
+    grid-template-rows: 370px 370px;
     grid-gap: 3px;
   }
 
@@ -145,7 +197,7 @@ body {
     align-self: center;
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
-    grid-template-rows: 450px;
+    grid-template-rows: 470px;
     grid-gap: 5px;
   }
 
@@ -169,8 +221,24 @@ body {
   .now {
     font-size: 12px;
   }
-
   .red-price {
     font-size: 20px;
+  }
+  .modal {
+    height: 30%;
+  }
+  .show-modal {
+    padding: 10px;
+  }
+  .close-modal {
+    top: 1.2rem;
+    right: 1rem;
+    font-size: 2rem;
+  }
+  .title-modal {
+    font-size: 32px;
+  }
+  .content-modal {
+    font-size: 24px;
   }
 }
