@@ -1,0 +1,176 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  width: 100%;
+  margin: 20px 10px 20px 10px;
+}
+
+.images {
+  align-self: center;
+}
+
+.main-title {
+  font-size: 30px;
+  margin-top: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.for_slick_slider .items {
+  width: 60%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.for_slick_slider .items img {
+  width: 80%;
+}
+
+.carrusel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid-container {
+  align-self: center;
+  display: grid;
+  grid-template-columns: 180px 180px;
+  grid-template-rows: 320px 320px;
+  grid-gap: 2px;
+}
+
+.image-carrusel {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 5px;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-carusel {
+  margin: 0px 0px 5px 0px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.price-before {
+  margin: 0;
+  font-size: 15px;
+  text-decoration: line-through;
+  color: #7b7b7c;
+}
+
+.price-before-b {
+  margin: 0;
+  font-size: 13px;
+  text-decoration: line-through;
+  color: #7b7b7c;
+}
+
+.actual-price {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas fa-tag {
+  font-size: 13px;
+}
+
+.now {
+  margin: 0;
+  font-size: 10px;
+}
+
+.red-price {
+  margin: 0;
+  color: red;
+}
+
+@media screen and (min-width: 768px) {
+  .main-title {
+    font-size: 50px;
+  }
+  .grid-container {
+    align-self: center;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 350px 350px;
+    grid-gap: 3px;
+  }
+
+  .image-carrusel {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+  }
+  .text-carusel {
+    font-size: 14px;
+  }
+
+  .price-before {
+    font-size: 16px;
+  }
+
+  .price-before-b {
+    font-size: 14px;
+  }
+
+  .now {
+    font-size: 11px;
+  }
+
+  .red-price {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main-title {
+    font-size: 50px;
+  }
+  .grid-container {
+    align-self: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 450px;
+    grid-gap: 5px;
+  }
+
+  .image-carrusel {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 5px;
+  }
+  .text-carusel {
+    font-size: 16px;
+  }
+
+  .price-before {
+    font-size: 18px;
+  }
+
+  .price-before-b {
+    font-size: 16px;
+  }
+
+  .now {
+    font-size: 12px;
+  }
+
+  .red-price {
+    font-size: 20px;
+  }
+}
