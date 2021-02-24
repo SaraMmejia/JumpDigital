@@ -9,8 +9,12 @@ body {
   margin: 20px 10px 20px 10px;
 }
 
+.images {
+  width: 100%;
+}
+
 .picture-slider {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
